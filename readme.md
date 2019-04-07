@@ -1,9 +1,7 @@
-## Synopsis
 
-A simple REST API created with Flask.
+**A simple REST API created with Flask.**
 
 ## Installation & Tests
-
 
 * `make build`: Build the docker images. There are two of them: the mysql db and the proper app. 
 
@@ -16,7 +14,7 @@ A simple REST API created with Flask.
 
 ## API Reference
 
-Current Endpoints:
+**Current Endpoints:**
 
 * Get a user balance
 * Get a transfer
@@ -24,11 +22,15 @@ Current Endpoints:
 
 **Get a user balance**
 
-* `GET /userbalance/{user_id}` will return the current balance of the user.
+`GET /userbalance/{user_id}` will return the current balance of the user.
 
-* `GET /transfer/{transfer_id}` will return the transfer.
+**Get a transfer**
 
-* `POST /transfer` will allow creating a new transfer.
+`GET /transfer/{transfer_id}` will return the transfer.
+
+**Create a transfer**
+
+`POST /transfer` will allow creating a new transfer.
 ```json
 [
   {
@@ -48,7 +50,7 @@ This will return `200 OK` with the location of the new transfer. For instance:
 ]
 ```
 
-## TODOS 
+## Todos
 
 * Implement oauth2
 * Rate limiting
