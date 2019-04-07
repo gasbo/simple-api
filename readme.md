@@ -30,7 +30,7 @@
 
 **Create a transfer**
 
-`POST /transfer` will allow creating a new transfer.
+`POST /transfer` will create a new transfer.
 ```json
 [
   {
@@ -41,7 +41,7 @@
   }
 ]
 ```
-This will return `200 OK` with the location of the new transfer. For instance:
+This will return `200 OK` with the location of the new transfer. For example:
 ```json
 [
   {
