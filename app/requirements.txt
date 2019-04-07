@@ -1,0 +1,6 @@
+gunicorn
+flask==1.0.2
+flask_restful
+pymysql==0.9.3
+requests==2.9.1
+pytest
