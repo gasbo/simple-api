@@ -3,7 +3,7 @@
 
 ## Installation & Tests
 
-* `make build`: Build the docker images. There are two of them: the mysql db and the proper app. 
+* `make build`: Build the docker images. There are two of them: the mysql db and the proper app. Otherwise you can pull from    Dockerhub (`gasbo/simple-api-db` and `gasbo/simple-api-app`).
 
 * `make run PORT=8000`: Run the containers and start the application. 
 
